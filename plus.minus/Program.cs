@@ -7,9 +7,9 @@
             PlusMinus([1, 1, 0, -1, -1]);
         }
 
-        private static void PlusMinus(int[] arr)
+        private static void PlusMinus(List<int> arr)
         {
-            var arrSize = arr.Length;
+            var arrSize = arr.Count;
             var countPositive = 0;
             var countNegative = 0;
             var countZero = 0;
@@ -31,9 +31,7 @@
             }
 
             Console.WriteLine(((decimal)countPositive / arrSize).ToString("F6"));
-
             Console.WriteLine(((decimal)countNegative / arrSize).ToString("F6"));
-
             Console.WriteLine(((decimal)countZero / arrSize).ToString("F6"));
         }
     }

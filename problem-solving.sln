@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini.max.sum", "src\mini.ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "time.conversion", "src\time.conversion\time.conversion.csproj", "{7C1882DB-1208-43F8-B67B-F84BB1891A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sparse.arrays", "src\sparse.arrays\sparse.arrays.csproj", "{70E0B611-F98B-4508-A9D6-21633A37A445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7C1882DB-1208-43F8-B67B-F84BB1891A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C1882DB-1208-43F8-B67B-F84BB1891A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C1882DB-1208-43F8-B67B-F84BB1891A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E0B611-F98B-4508-A9D6-21633A37A445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E0B611-F98B-4508-A9D6-21633A37A445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E0B611-F98B-4508-A9D6-21633A37A445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E0B611-F98B-4508-A9D6-21633A37A445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

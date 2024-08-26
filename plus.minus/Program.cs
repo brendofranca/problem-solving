@@ -7,21 +7,34 @@
             PlusMinus([1, 1, 0, -1, -1]);
         }
 
-        private static void PlusMinus(List<int> numbers)
+        private static void PlusMinus(int[] arr)
         {
-            var size = numbers.Count;
+            var arrSize = arr.Length;
+            var countPositive = 0;
+            var countNegative = 0;
+            var countZero = 0;
 
-            var totalPositiveNumbers = (decimal)numbers.Count(x => x > 0);
+            for (int i = 0; i < arrSize; i++)
+            {
+                if (arr[i] > 0)
+                {
+                    countPositive++;
+                }
+                else if (arr[i] < 0)
+                {
+                    countNegative++;
+                }
+                else
+                {
+                    countZero++;
+                }
+            }
 
-            var totalNegativeNumbers = (decimal)numbers.Count(x => x < 0);
+            Console.WriteLine(((decimal)countPositive / arrSize).ToString("F6"));
 
-            var totalZeroNumbers = (decimal)numbers.Count(x => x == 0);
+            Console.WriteLine(((decimal)countNegative / arrSize).ToString("F6"));
 
-            Console.WriteLine((totalPositiveNumbers / size).ToString("F6"));
-
-            Console.WriteLine((totalNegativeNumbers / size).ToString("F6"));
-
-            Console.WriteLine((totalZeroNumbers / size).ToString("F6"));
+            Console.WriteLine(((decimal)countZero / arrSize).ToString("F6"));
         }
     }
 }

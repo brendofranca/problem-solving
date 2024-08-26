@@ -1,13 +1,13 @@
 ﻿namespace plus.minus
 {
-    internal class Program
+    public class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             PlusMinus([1, 1, 0, -1, -1]);
         }
 
-        private static void PlusMinus(List<int> arr)
+        public static void PlusMinus(List<int> arr)
         {
             var arrSize = arr.Count;
             var countPositive = 0;

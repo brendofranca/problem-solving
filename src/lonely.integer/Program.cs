@@ -10,17 +10,16 @@
         private static void LonelyInteger(List<int> arr)
         {
             var result = 0;
-            
+
             for (int i = 0; i < arr.Count; i++)
             {
-                if(arr.FindAll(x => x == arr[i]).Count == 1)
+                if (arr.FindAll(x => x == arr[i]).Count == 1)
                 {
-                    result = arr[i];   
+                    result = arr[i];
                 }
-                
             }
 
-            Console.WriteLine(result);  
+            Console.WriteLine(result);
         }
     }
 }

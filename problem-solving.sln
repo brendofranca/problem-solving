@@ -5,17 +5,17 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plus.minus", "src\plus.minus\plus.minus.csproj", "{FD7DF3E3-1E85-4920-B1FB-BE6F677B870D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini.max.sum", "src\mini.max.sum\mini.max.sum.csproj", "{4B9CFEE9-B0BF-49D7-953A-ABE70F955666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mini.max.sum", "src\mini.max.sum\mini.max.sum.csproj", "{4B9CFEE9-B0BF-49D7-953A-ABE70F955666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "time.conversion", "src\time.conversion\time.conversion.csproj", "{7C1882DB-1208-43F8-B67B-F84BB1891A91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "time.conversion", "src\time.conversion\time.conversion.csproj", "{7C1882DB-1208-43F8-B67B-F84BB1891A91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sparse.arrays", "src\sparse.arrays\sparse.arrays.csproj", "{70E0B611-F98B-4508-A9D6-21633A37A445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sparse.arrays", "src\sparse.arrays\sparse.arrays.csproj", "{70E0B611-F98B-4508-A9D6-21633A37A445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lonely.integer", "src\lonely.integer\lonely.integer.csproj", "{D988F3B0-084C-4927-84D6-185530273187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lonely.integer", "src\lonely.integer\lonely.integer.csproj", "{D988F3B0-084C-4927-84D6-185530273187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flipping.bits", "src\flipping.bits\flipping.bits.csproj", "{2229630F-184D-4C9E-A1F1-85A9A6ED3B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flipping.bits", "src\flipping.bits\flipping.bits.csproj", "{2229630F-184D-4C9E-A1F1-85A9A6ED3B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diagonal.difference", "src\diagonal.difference\diagonal.difference.csproj", "{9ED2165B-E303-48CA-9083-7E245DCC2CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diagonal.difference", "src\diagonal.difference\diagonal.difference.csproj", "{9ED2165B-E303-48CA-9083-7E245DCC2CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flipping.bits", "src\flippi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diagonal.difference", "src\diagonal.difference\diagonal.difference.csproj", "{9ED2165B-E303-48CA-9083-7E245DCC2CEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "max.number", "src\max.number\max.number.csproj", "{B50C3D62-FF16-4678-B00F-5079DB7792D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9ED2165B-E303-48CA-9083-7E245DCC2CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ED2165B-E303-48CA-9083-7E245DCC2CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ED2165B-E303-48CA-9083-7E245DCC2CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50C3D62-FF16-4678-B00F-5079DB7792D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50C3D62-FF16-4678-B00F-5079DB7792D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50C3D62-FF16-4678-B00F-5079DB7792D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50C3D62-FF16-4678-B00F-5079DB7792D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
